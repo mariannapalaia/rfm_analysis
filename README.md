@@ -6,7 +6,7 @@ RFM segmentation | Channel effectiveness | Cohort retention
 
 ## Project Setup
 
-**`setup instructions.txt`**:
+**`setup_instructions.txt`**:
 
 1. Create a PostgreSQL instance using **Docker Compose**.
 2. Create the database **schema** with tables:
