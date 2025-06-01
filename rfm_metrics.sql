@@ -38,6 +38,7 @@ rfm as (
 
 -- compute final rfm_score in 2 ways (3-digit and avg)
 -- postgres returns int by default so cast to get 2 decimal points for more accuracy in avg score
+-- create segments based on different rfm scores combinations
 
 select * 
 from
