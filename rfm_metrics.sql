@@ -15,9 +15,9 @@ CREATE OR REPLACE VIEW rfm_scores AS (
 with scores as (
 	select user_id
          , max(transaction_date)
-	     , date '2019-03-01' - max(transaction_date) recency_score
-	     , count(order_id) as frequency_score
-	     , sum(net_amount) monetary_score
+	 , date '2019-03-01' - max(transaction_date) recency_score
+         , count(order_id) as frequency_score
+         , sum(net_amount) monetary_score
     from transactions
     group by user_id
 ),
@@ -26,7 +26,7 @@ with scores as (
 
 rfm as (
 	select
-		user_id
+	    user_id
 	  , recency_score
 	  , frequency_score
 	  , monetary_score
