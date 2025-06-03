@@ -1,6 +1,6 @@
 # RFM Analysis (PostgreSQL + Power BI)
 
-RFM Segmentation | Channel Effectiveness | Cohort Analysis
+RFM Segmentation | Acquisition Channel Effectiveness | Cohort Analysis
 
 ---
 
