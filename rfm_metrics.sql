@@ -65,4 +65,4 @@ order by avg_rfm_score desc
 ) ;
 
 -- View created. if you want to run it as a query, run lines 15-63
--- cool. lets make some segments
+-- cool
